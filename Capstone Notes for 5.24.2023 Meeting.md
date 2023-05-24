@@ -58,18 +58,31 @@ Supported list of sensors for [pose estimation](http://wiki.ros.org/Sensors/Pose
 `adi_driver` provides a promising Linux-enabled interfacing with the ADIS16470 IMU and the ADXL345 accelerometer. The accelerometer provides raw data in the form of acceleration values in an array. Here is a [data sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/adxl345.pdf) which walks through all the use modes and features of the accelerometer. 
 The accelerometer is cheap, and the IMU is not ($300-400 range). 
 
-###### Why bother?
+##### Why bother?
 ROS has the ability to record and playback the [path taken by a robot](http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data) a la "turtle graphics", and we could use the recorded IMU data to map out a `rosbag` recording which can be used for creating a visual path representation. 
 
 >**[rosbag](http://wiki.ros.org/rosbag)** is a command line tool that records messages and allows you to play them back later. You can think of a rosbag as similar to a digital video file that records not only video but also other types of sensor messages. Think of it as a multi-track recording, where you can have not only a video track but also a sound track, an IMU track, and so on. There is a master time code which then allows all of the messages to synchronize when they play back.
 
 We theoretically should be able to have an IMU track which lets us keep track of the data from the robot (skate). Using this data, we can map out the desired information and pass it to the app. 
 
-However, we could also not use ROS should an Arduino integration be sufficient (we only need to read the IMU data and manipulate it, no robot actuation or operation). 
+However, we could also not use ROS should an Arduino integration be sufficient (we only need to read the IMU data and manipulate it, no robot actuation or operation). This begs further research.
+
+##### What's next for me? 
+I would really like to spend more time answering some of the other research questions which I posed here. I haven't taken time to look into potentially viable tech stacks for completing this project. 
+
+I definitely want to look more into HVM on my own and see if the hardware which I was perusing can play nicely with it.
+
+I need to learn more about understanding data sheets—I felt that much of what I read regarding hardware went over my head. Knowing more about analyzing these documents will help me make a more informed decision about what will (or won't) work for the skate. 
+
+I need to look into data transmission capabilities of the hardware here. I read quite a bit about ROS and IMUs but I need to nail down a flow of hardware measurement -> data transmission -> software display and calculation.
 
 ###### Sources 
 [IMU wearables](https://www.researchgate.net/figure/The-example-of-how-the-IMUs-attached-on-the-index-finger-measure-the-rotation-a-The_fig5_336864649)
+
 [IMU function](https://en.wikipedia.org/wiki/Inertial_measurement_unit)
+
 [ADXL data](https://www.analog.com/en/products/adxl345.html#product-reference)
+
 [ROS example](https://www.toptal.com/robotics/introduction-to-robot-operating-system#:~:text=ROS%20provides%20functionality%20for%20hardware,and%20visualization%2C%20and%20much%20more.)
+
 [ROS path recording](http://wiki.ros.org/ROS/Tutorials/Recording%20and%20playing%20back%20data)

@@ -1,0 +1,157 @@
+{
+  "main": {
+    "id": "5ddec50cf92bf975",
+    "type": "split",
+    "children": [
+      {
+        "id": "bdace3677a2d0a10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2fd6e85513193d29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capstone Notes for 5.29.2023 Meeting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "551f6a58d40a4bb2",
+    "type": "split",
+    "children": [
+      {
+        "id": "fe90c304a634791a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7233593731a106b8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "aabce233ee9204de",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a7878ae92318e2ce",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "right": {
+    "id": "7e3ad59930a56227",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca0bd8430625ff23",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4312161343188eda",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Capstone Notes for 5.29.2023 Meeting.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8e1dd151905963bc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Capstone Notes for 5.29.2023 Meeting.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5f97f89bd81d8ab6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b6930b6896eb2902",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Capstone Notes for 5.29.2023 Meeting.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "2fd6e85513193d29",
+  "lastOpenFiles": [
+    "Capstone Notes for 5.24.2023 Meeting.md",
+    "Capstone Notes for 5.29.2023 Meeting.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}

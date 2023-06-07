@@ -27,7 +27,7 @@ Principal path of length `n` consists of cells `c_1 \ldots c_n` such that the pr
 
 Section 2 gets into the allowed interaction rules for the combinators, which is the important part.
 
-TBA to be continued with research continuing, but the meeting is soon.
+TBA to be continued with research continuing.
 
 
 

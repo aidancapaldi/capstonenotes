@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "962d272fcf14a6b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capstone Notes for 6.7.2023 Meeting.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "7e3ad59930a56227",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Capstone Notes for 5.29.2023 Meeting.md",
+                "file": "Capstone Notes for 6.7.2023 Meeting.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Capstone Notes for 5.29.2023 Meeting.md",
+                "file": "Capstone Notes for 6.7.2023 Meeting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Capstone Notes for 5.29.2023 Meeting.md"
+                "file": "Capstone Notes for 6.7.2023 Meeting.md"
               }
             }
           }
@@ -147,10 +159,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2fd6e85513193d29",
+  "active": "962d272fcf14a6b7",
   "lastOpenFiles": [
-    "Capstone Notes for 5.24.2023 Meeting.md",
     "Capstone Notes for 5.29.2023 Meeting.md",
+    "Capstone Notes for 6.7.2023 Meeting.md",
+    "Capstone Notes for 5.24.2023 Meeting.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
